@@ -1,4 +1,4 @@
-package de.taron10lp.rust.utils;
+package de.unstableprogrammers.rust.utils;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;

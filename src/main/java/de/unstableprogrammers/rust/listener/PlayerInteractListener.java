@@ -1,6 +1,6 @@
-package de.taron10lp.rust.listener;
+package de.unstableprogrammers.rust.listener;
 
-import de.taron10lp.rust.main.Rust;
+import de.unstableprogrammers.rust.main.Rust;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

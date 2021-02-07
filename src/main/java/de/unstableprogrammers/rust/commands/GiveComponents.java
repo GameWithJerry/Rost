@@ -1,6 +1,6 @@
-package de.taron10lp.rust.commands;
+package de.unstableprogrammers.rust.commands;
 
-import de.taron10lp.rust.main.Rust;
+import de.unstableprogrammers.rust.main.Rust;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

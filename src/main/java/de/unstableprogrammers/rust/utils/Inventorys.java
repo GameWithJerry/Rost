@@ -1,7 +1,7 @@
-package de.taron10lp.rust.utils;
+package de.unstableprogrammers.rust.utils;
 
 
-import de.taron10lp.rust.main.Rust;
+import de.unstableprogrammers.rust.main.Rust;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryType;

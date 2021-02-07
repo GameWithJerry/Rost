@@ -1,4 +1,4 @@
-package de.taron10lp.rust.cratesandbarrels;
+package de.unstableprogrammers.rust.cratesandbarrels;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Player;

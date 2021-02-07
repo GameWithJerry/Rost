@@ -1,6 +1,6 @@
-package de.taron10lp.rust.ressources;
+package de.unstableprogrammers.rust.ressources;
 
-import de.taron10lp.rust.main.Rust;
+import de.unstableprogrammers.rust.main.Rust;
 import org.bukkit.Bukkit;
 
 public class StoneNodeRespawn {

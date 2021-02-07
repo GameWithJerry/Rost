@@ -1,6 +1,6 @@
-package de.taron10lp.rust.itemstacks;
+package de.unstableprogrammers.rust.itemstacks;
 
-import de.taron10lp.rust.main.Rust;
+import de.unstableprogrammers.rust.main.Rust;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;

@@ -1,6 +1,6 @@
-package de.taron10lp.rust.cratesandbarrels;
+package de.unstableprogrammers.rust.cratesandbarrels;
 
-import de.taron10lp.rust.main.Rust;
+import de.unstableprogrammers.rust.main.Rust;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;

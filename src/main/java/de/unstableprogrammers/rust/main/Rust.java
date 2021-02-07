@@ -1,13 +1,13 @@
-package de.taron10lp.rust.main;
+package de.unstableprogrammers.rust.main;
 
-import de.taron10lp.rust.cratesandbarrels.BarrelManager;
-import de.taron10lp.rust.cratesandbarrels.BlueBarrel;
-import de.taron10lp.rust.cratesandbarrels.BrownBarrel;
-import de.taron10lp.rust.cratesandbarrels.RedBarrel;
-import de.taron10lp.rust.commands.*;
-import de.taron10lp.rust.itemstacks.*;
-import de.taron10lp.rust.listener.*;
-import de.taron10lp.rust.utils.*;
+import de.unstableprogrammers.rust.cratesandbarrels.BarrelManager;
+import de.unstableprogrammers.rust.cratesandbarrels.BlueBarrel;
+import de.unstableprogrammers.rust.cratesandbarrels.BrownBarrel;
+import de.unstableprogrammers.rust.cratesandbarrels.RedBarrel;
+import de.unstableprogrammers.rust.commands.*;
+import de.unstableprogrammers.rust.itemstacks.*;
+import de.unstableprogrammers.rust.listener.*;
+import de.unstableprogrammers.rust.utils.*;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.configuration.file.FileConfiguration;

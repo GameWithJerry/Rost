@@ -1,6 +1,6 @@
-package de.taron10lp.rust.cratesandbarrels;
+package de.unstableprogrammers.rust.cratesandbarrels;
 
-import de.taron10lp.rust.main.Rust;
+import de.unstableprogrammers.rust.main.Rust;
 
 public class BarrelManager {
 
