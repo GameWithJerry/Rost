@@ -1,8 +1,8 @@
-name: Rust
+name: FeOH
 version: $(plugin_version)
 author: UnstableProgrammers
 api-version: 1.16
-main: de.unstableprogrammers.rust.main.Rust
+main: de.unstableprogrammers.feoh.main.FeOH
 commands:
   givematerialspawner:
   givetools:
