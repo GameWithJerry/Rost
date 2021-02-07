@@ -1,8 +1,8 @@
 name: Rust
-version: 1.0
-author: Taron10LP
+version: $(plugin_version)
+author: UnstableProgrammers
 api-version: 1.16
-main: de.taron10lp.rust.main.Rust
+main: de.unstableprogrammers.rust.main.Rust
 commands:
   givematerialspawner:
   givetools:
