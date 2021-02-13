@@ -20,15 +20,6 @@ public class RedBarrel extends Barrel {
     }
 
     @Override
-    public void generateLoot(Player player, Location location, int chance) {
-        loot.add(plugin.getItemMaterials().getLowGradeFuel(5));
-        loot.add(plugin.getItemMaterials().getCrudeOil(15));
-
-        player.sendMessage("opening");
-
-        for(int i=0; i<1;i++) {
-            location.getWorld().dropItem(location, loot.get(i));
-        }
-    }
+    public void generateLoot(Player player, Location location, int chance) {}
 
 }

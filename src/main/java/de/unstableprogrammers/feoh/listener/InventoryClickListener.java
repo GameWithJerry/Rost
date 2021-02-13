@@ -38,11 +38,9 @@ public class InventoryClickListener implements Listener {
             return;
         }
 
-        if(!(event.getCurrentItem().getItemMeta().getDisplayName().equals(plugin.getItemStacks().getInvCraftingPlaceHolder().getItemMeta().getDisplayName()))) {
+        /*if(!(event.getCurrentItem().getItemMeta().getDisplayName().equals(plugin.getItemStacks().getInvCraftingPlaceHolder().getItemMeta().getDisplayName()))) {
             return;
-        }
-        event.setCancelled(true);
-        plugin.getInventorys().openSurvCraftingInv(player);
+        }*/
     }
 
     @EventHandler

@@ -19,14 +19,6 @@ public class PlayerJoinListener implements Listener {
         Player player = event.getPlayer();
 
         event.setJoinMessage(plugin.PREFIX + player.getDisplayName() + " ist gerade dem Server beigetreten");
-
-        player.getInventory().setMaxStackSize(1000);
-        player.getInventory().setItem(17, plugin.getItemStacks().getInvCraftingPlaceHolder());
-        player.getInventory().setItem(0, plugin.getTools().getRock());
-        player.getInventory().setItem(1, plugin.getTools().getTorch());
-
-
-        
     }
 
 }
