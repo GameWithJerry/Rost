@@ -1,76 +1,91 @@
 {
   "ItemComponents": [
     {
+      "ID": "scrap",
       "Name": "Scrap",
       "Material": "NETHERITE_SCRAP",
       "Amount": 1
     },
     {
+      "ID": "metal_pipe",
       "Name": "Metal Pipe",
       "Material": "BAMBOO",
       "Amount": 1
     },
     {
+      "ID": "sewing_kit",
       "Name": "Sewing Kit",
       "Material": "LEAD",
       "Amount": 1
     },
     {
+      "ID": "gears",
       "Name": "Gears",
       "Material": "MUSIC_DISC_11",
       "Amount": 1
     },
     {
+      "ID": "metal_blade",
       "Name": "Metal Blade",
       "Material": "STONE_PRESSURE_PLATE",
       "Amount": 1
     },
     {
+      "ID": "metal_spring",
       "Name": "Metal Spring",
       "Material": "CHAIN",
       "Amount": 1
     },
     {
+      "ID": "rope",
       "Name": "Rope",
       "Material": "STRING",
       "Amount": 1
     },
     {
+      "ID": "rope_signs",
       "Name": "Rope Signs",
       "Material": "WHITE_BANNER",
       "Amount": 1
     },
     {
+      "ID": "rifle_body",
       "Name": "Rifle Body",
       "Material": "SCUTE",
       "Amount": 1
     },
     {
+      "ID": "semi_body_auto",
       "Name": "Semi Auto Body",
       "Material": "MUSIC_DISC_CAT",
       "Amount": 1
     },
     {
+      "ID": "trap",
       "Name": "Trap",
       "Material": "BLUE_CARPET",
       "Amount": 1
     },
     {
+      "ID": "trash_tech",
       "Name": "Tech Trash",
       "Material": "REDSTONE",
       "Amount": 1
     },
     {
+      "ID": "tank_propane_empty",
       "Name": "Empty Propane Tank",
       "Material": "GLASS_BOTTLE",
       "Amount": 1
     },
     {
+      "ID": "sheet_metal",
       "Name": "Sheet Metal",
       "Material": "HEAVY_WEIGHTED_PRESSURE_PLATE",
       "Amount": 1
     },
     {
+      "ID": "fuse",
       "Name": "Electric Fuse",
       "Material": "DAYLIGHT_DETECTOR",
       "Amount": 1

@@ -8,14 +8,15 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ItemComponents {
 
     private FeOH plugin;
     private JsonFileParser json;
 
-    private ArrayList<ItemStack> allItemComponents = new ArrayList<>();
+    private Map<String, ItemStack> allItemComponents = new HashMap<>();
 
     public ItemComponents(FeOH plugin) {
         this.plugin = plugin;
@@ -28,7 +29,8 @@ public class ItemComponents {
         JSONArray array = json.get().getJSONArray("ItemComponents");
 
         for (int i = 0; i < array.length(); i++) {
-            addComponentToArray(JSONObjectToItemStack(array.getJSONObject(i)));
+            JSONObject object = array.getJSONObject(i);
+            addComponentToArray(object.getString("ID"), JSONObjectToItemStack(object));
         }
     }
 
@@ -43,6 +45,6 @@ public class ItemComponents {
         return itemstack;
     }
 
-    public ArrayList<ItemStack> getAllItemComponents() { return allItemComponents; }
-    public void addComponentToArray(ItemStack itemStack) { allItemComponents.add(itemStack); }
+    public Map<String, ItemStack> getAllItemComponents() { return allItemComponents; }
+    public void addComponentToArray(String id, ItemStack itemStack) { allItemComponents.put(id, itemStack); }
 }
