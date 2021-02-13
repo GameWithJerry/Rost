@@ -1,0 +1,79 @@
+{
+  "ItemComponents": [
+    {
+      "Name": "Scrap",
+      "Material": "NETHERITE_SCRAP",
+      "Amount": 1
+    },
+    {
+      "Name": "Metal Pipe",
+      "Material": "BAMBOO",
+      "Amount": 1
+    },
+    {
+      "Name": "Sewing Kit",
+      "Material": "LEAD",
+      "Amount": 1
+    },
+    {
+      "Name": "Gears",
+      "Material": "MUSIC_DISC_11",
+      "Amount": 1
+    },
+    {
+      "Name": "Metal Blade",
+      "Material": "STONE_PRESSURE_PLATE",
+      "Amount": 1
+    },
+    {
+      "Name": "Metal Spring",
+      "Material": "CHAIN",
+      "Amount": 1
+    },
+    {
+      "Name": "Rope",
+      "Material": "STRING",
+      "Amount": 1
+    },
+    {
+      "Name": "Rope Signs",
+      "Material": "WHITE_BANNER",
+      "Amount": 1
+    },
+    {
+      "Name": "Rifle Body",
+      "Material": "SCUTE",
+      "Amount": 1
+    },
+    {
+      "Name": "Semi Auto Body",
+      "Material": "MUSIC_DISC_CAT",
+      "Amount": 1
+    },
+    {
+      "Name": "Trap",
+      "Material": "BLUE_CARPET",
+      "Amount": 1
+    },
+    {
+      "Name": "Tech Trash",
+      "Material": "REDSTONE",
+      "Amount": 1
+    },
+    {
+      "Name": "Empty Propane Tank",
+      "Material": "GLASS_BOTTLE",
+      "Amount": 1
+    },
+    {
+      "Name": "Sheet Metal",
+      "Material": "HEAVY_WEIGHTED_PRESSURE_PLATE",
+      "Amount": 1
+    },
+    {
+      "Name": "Electric Fuse",
+      "Material": "DAYLIGHT_DETECTOR",
+      "Amount": 1
+    }
+  ]
+}

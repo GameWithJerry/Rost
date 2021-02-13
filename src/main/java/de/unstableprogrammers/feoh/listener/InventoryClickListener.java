@@ -22,25 +22,17 @@ public class InventoryClickListener implements Listener {
 
         Player player = (Player) event.getWhoClicked();
 
-        if(event.getClickedInventory() == null) {
-            return;
-        }
-
-        if(event.getCurrentItem() == null) {
-            return;
-        }
-
-        if(event.getCurrentItem().getItemMeta() == null) {
-            return;
-        }
-
-        if(event.getCurrentItem().getItemMeta().getDisplayName() == null) {
+        if(event.getClickedInventory() == null ||
+                event.getCurrentItem() == null ||
+                event.getCurrentItem().getItemMeta() == null ||
+                event.getCurrentItem().getItemMeta().getDisplayName() == null) {
             return;
         }
 
         if(!(event.getCurrentItem().getItemMeta().getDisplayName().equals(plugin.getItemStacks().getInvCraftingPlaceHolder().getItemMeta().getDisplayName()))) {
             return;
         }
+
         event.setCancelled(true);
         plugin.getInventorys().openSurvCraftingInv(player);
     }
@@ -51,21 +43,10 @@ public class InventoryClickListener implements Listener {
             return;
         }
 
-        Player player = (Player) event.getWhoClicked();
-
-        if(event.getClickedInventory() == null) {
-            return;
-        }
-
-        if(event.getCurrentItem() == null) {
-            return;
-        }
-
-        if(event.getCurrentItem().getItemMeta() == null) {
-            return;
-        }
-
-        if(event.getCurrentItem().getItemMeta().getDisplayName() == null) {
+        if(event.getClickedInventory() == null ||
+                event.getCurrentItem() == null ||
+                event.getCurrentItem().getItemMeta() == null ||
+                event.getCurrentItem().getItemMeta().getDisplayName() == null) {
             return;
         }
 

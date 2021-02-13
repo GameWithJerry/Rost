@@ -21,7 +21,7 @@ import java.util.ArrayList;
 
 public class FeOH extends JavaPlugin {
 
-    public final String PREFIX = "§4[§6Rust§4]§7 ",
+    public final String PREFIX = "§4[§FeOH§4]§7 ",
                         CONSOLE_PREFIX = "§econsole.";
 
     //Classes

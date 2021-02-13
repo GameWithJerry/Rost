@@ -22,5 +22,6 @@ repositories {
 }
 
 dependencies {
+    compileOnly 'org.json:json:20201115'
     compileOnly 'com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT'
 }

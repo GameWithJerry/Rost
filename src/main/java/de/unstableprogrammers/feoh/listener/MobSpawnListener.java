@@ -17,6 +17,7 @@ public class MobSpawnListener implements Listener {
         if(event.getEntity() == null) {
             return;
         }
+
         event.setCancelled(true);
     }
 
@@ -24,6 +25,7 @@ public class MobSpawnListener implements Listener {
         if(event.getEntity() == null) {
             return;
         }
+
         event.setCancelled(true);
     }
 
